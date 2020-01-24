@@ -60,8 +60,13 @@ python test/benchmark.py 100000
 * **eig_vecs** *(Tensor)* - Corresponding eigenvectors in columns`(number_of_matrices x 3 x 3)`.
 
 ### Information
-The module was initially used in our paper
-
-Jan Eric Lenssen, Christian Osendorfer, Jonathan Masci: [Deep Iterative Surface Normal Estimation](https://arxiv.org/abs/1904.07172), 
-
-which can be cited as reference.
+The module was initially used in our [Deep Iterative Surface Normal Estimation](https://arxiv.org/abs/1904.07172) paper, which can be cited as reference:
+```
+@misc{lenssen2019,
+    title={Deep Iterative Surface Normal Estimation},
+    author={Jan Eric Lenssen and Christian Osendorfer and Jonathan Masci},
+    year={2019},
+    eprint={1904.07172},
+    archivePrefix={arXiv},
+}
+```
