@@ -60,7 +60,7 @@ python test/benchmark.py 100000
 * **eig_vecs** *(Tensor)* - Corresponding eigenvectors in columns`(number_of_matrices x 3 x 3)`.
 
 ### Information
-The module was initially used in our [Deep Iterative Surface Normal Estimation](https://arxiv.org/abs/1904.07172) paper, which can be cited as reference:
+The module was initially created for and used in our [Deep Iterative Surface Normal Estimation](https://arxiv.org/abs/1904.07172) paper, which can be cited as reference:
 ```
 @misc{lenssen2019,
     title={Deep Iterative Surface Normal Estimation},
@@ -70,3 +70,5 @@ The module was initially used in our [Deep Iterative Surface Normal Estimation](
     archivePrefix={arXiv},
 }
 ```
+The implementation follows the theoretical derivations from:
+Mike B. Giles. Collected matrix derivative results for forward and reverse mode algorithmic differentiation. In Advances in Automatic Differentiation, pages 35–44. Springer Berlin Heidelberg, 2008
