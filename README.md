@@ -3,12 +3,12 @@
 
 --------------------------------------------------------------------------------
 
-The operator works on all floating point data types and is implemented both for CPU and GPU with custom kernels.
+The operator works on 32 and 64 bit floating point data types and is implemented both for CPU and GPU with custom kernels.
 Implementations include forward and backward steps.
 
 ## Installation
 
-Ensure that at least PyTorch 1.0.0 is installed, checkout repository and run:
+Ensure that at least PyTorch >= 1.0.0 is installed, checkout repository and run:
 
 ```
 python setup.py install
@@ -59,3 +59,9 @@ python test/benchmark.py 100000
 * **eig_vals** *(Tensor)* - Eigenvalues of the input matrices in no pre-defined order`(number_of_matrices x 3)`.
 * **eig_vecs** *(Tensor)* - Corresponding eigenvectors in columns`(number_of_matrices x 3 x 3)`.
 
+### Information
+The module was initially used in our paper
+
+Jan Eric Lenssen, Christian Osendorfer, Jonathan Masci: [Deep Iterative Surface Normal Estimation](https://arxiv.org/abs/1904.07172), 
+
+which can be cited as reference.
