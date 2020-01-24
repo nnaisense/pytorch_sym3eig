@@ -71,4 +71,4 @@ The module was initially created for and used in our [Deep Iterative Surface Nor
 }
 ```
 The implementation follows the theoretical derivations from:
-Mike B. Giles. Collected matrix derivative results for forward and reverse mode algorithmic differentiation. In Advances in Automatic Differentiation, pages 35–44. Springer Berlin Heidelberg, 2008
+* Mike B. Giles. Collected matrix derivative results for forward and reverse mode algorithmic differentiation. In Advances in Automatic Differentiation, pages 35–44. Springer Berlin Heidelberg, 2008
