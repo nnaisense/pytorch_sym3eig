@@ -1,4 +1,4 @@
-# Pytorch extension for batch-wise eigencomputation for symmetric 3x3 matrices
+# Pytorch extension: Batch-wise eigencomputation for symmetric 3x3 matrices
 
 
 --------------------------------------------------------------------------------
