@@ -70,5 +70,6 @@ The module was initially created for and used in our [Deep Iterative Surface Nor
     archivePrefix={arXiv},
 }
 ```
-The implementation follows the theoretical derivations from:
-* Mike B. Giles. Collected matrix derivative results for forward and reverse mode algorithmic differentiation. In Advances in Automatic Differentiation, pages 35–44. Springer Berlin Heidelberg, 2008
+The implementation follows the derivations from:
+* Mike B. Giles. Collected matrix derivative results for forward and reverse mode algorithmic differentiation. In Advances in Automatic Differentiation, pages 35–44. Springer Berlin Heidelberg, 2008, and
+* https://en.wikipedia.org/wiki/Eigenvalue_algorithm
