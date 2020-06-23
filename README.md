@@ -6,6 +6,8 @@
 The operator works on 32 and 64 bit floating point data types and is implemented both for CPU and GPU with custom kernels.
 Implementations include forward and backward steps.
 
+The full code for our work [Deep Iterative Surface Normal Estimation](https://arxiv.org/abs/1904.07172) can be found here: https://github.com/nnaisense/deep-iterative-surface-normal-estimation.
+
 ## Installation
 
 Ensure that at least PyTorch >= 1.0.0 is installed, checkout repository and run:
@@ -70,6 +72,8 @@ The module was initially created for and used in our [Deep Iterative Surface Nor
     archivePrefix={arXiv},
 }
 ```
+
+
 The implementation follows the derivations from:
 * Mike B. Giles. Collected matrix derivative results for forward and reverse mode algorithmic differentiation. In Advances in Automatic Differentiation, pages 35–44. Springer Berlin Heidelberg, 2008, and
 * https://en.wikipedia.org/wiki/Eigenvalue_algorithm
