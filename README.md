@@ -64,12 +64,11 @@ python test/benchmark.py 100000
 ### Information
 The module was initially created for and used in our [Deep Iterative Surface Normal Estimation](https://arxiv.org/abs/1904.07172) paper, which can be cited as reference:
 ```
-@misc{lenssen2019,
-    title={Deep Iterative Surface Normal Estimation},
-    author={Jan Eric Lenssen and Christian Osendorfer and Jonathan Masci},
-    year={2019},
-    eprint={1904.07172},
-    archivePrefix={arXiv},
+@InProceedings{Lenssen:2020,
+	author = {Lenssen, Jan Eric and Osendorfer, Christian and Masci, Jonathan},
+	title = {Deep Iterative Surface Normal Estimation},
+	booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+	year = {2020}
 }
 ```
 
